@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Prompt:wght@700&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .dark {
+    background-color: #000000;
+} */
+
+:root {
+    --left-nav-font: 1.3rem;
+    --left-nav-color: #0f1419;
+    --page-common-font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* main section of page  */
+
+.prime-container {
+    display: flex;
+
+}
+
+/* left side container  */
+.left-container {
+    /* border: 1px solid rgba(176, 175, 175, 0.9); */
+    width: 25%;
+    height: 730px;
+    position: sticky;
+    top: 0;
+
+}
+
+.left-nav-box {
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 100px;
+    display: flex;
+
+}
+
+.left-nav-box:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+
+
+/* twitter logo  */
+.logo-box {
+    width: 15%;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    /* margin-left: 100px; */
+
+}
+
+.logo-box:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+
+.left-nav-box:nth-child(10) {
+    border: none;
+    border-radius: none;
+}
+
+.left-icon,
+a {
+    font-size: var(--left-nav-font);
+    color: var(--left-nav-color);
+    text-decoration: none;
+
+}
+
+i {
+    padding-right: 12px;
+}
+
+
+.btn {
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 60%;
+    font-size: var(--left-nav-font);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    background-color: #4882e5;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #175dd4;
+    cursor: pointer;
+}
+
+.profile-main {
+    width: 70%;
+    margin: 75px 80px;
+}
+
+.profile-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-box:hover {
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+.profile-pic {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.user-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}
+
+h4,
+.user-id {
+    padding-left: 10px;
+}
+
+.user-id {
+    color: rgb(105, 104, 104);
+}
+
+.dots {
+    font-size: 2rem;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+/* middle section  */
+
+.middle-container {
+    width: 50%;
+    /* border: 2px solid; */
+    border: 1px solid rgba(169, 167, 167, 0.2);
+}
+
+.home-box {
+    background-color: white;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    filter: blur(0.5px);
+}
+
+
+.btn2-box {
+    display: flex;
+    /* border: 2px solid; */
+}
+
+.btn2 {
+    width: 50%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: var(--page-common-font);
+    padding: 15px;
+    background-color: rgb(251, 251, 251);
+    border: none;
+
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+    transition-duration: 0.5s;
+}
+
+.post-box {
+    display: flex;
+}
+
+.pro-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 5px;
+    /* margin-right: 20px; */
+    border-radius: 50%;
+}
+
+.pro-icon:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    color: black;
+}
+
+.write-caption {
+    width: 100%;
+    /* border: 3px solid; */
+    position: relative;
+}
+
+#captionwrite {
+    /* margin: 25px 0; */
+    margin: 20px;
+    width: 80%;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+.post-icon {
+    color: #5d91e9;
+    display: flex;
+    gap: 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* #tweet {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80px;
+    margin-left: 200px;
+    margin-top: -10px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    border: none;
+    color: white;
+    background-color: #5d91e9;
+} */
+
+#tweet {
+    width: 80px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color: #5d91e9;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+
+}
+
+
+.post-icon,
+#tweet:hover {
+    cursor: pointer;
+}
+
+#tweet:hover {
+    background-color: #175dd4;
+}
+
+.post-showing {
+    padding: 10px;
+    text-align: center;
+}
+
+.post-showing:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+    transition-duration: 0.5s;
+}
+
+/* feed section  */
+
+/* 1st post  */
+
+.post1 {
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid; */
+}
+
+.post1:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.3);
+}
+
+.feed-box {
+    display: flex;
+}
+
+.profile2 {
+    width: 50px;
+    height: 50px;
+    margin: 8px 20px 0 5px;
+    /* margin-right: 20px; */
+    border-radius: 50%;
+}
+
+.feed-post1 {
+    width: 85%;
+    height: 350px;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+}
+
+.picture {
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    /* display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1px; */
+
+    /* border-radius: 10px; */
+}
+
+.picbox1 {
+    display: flex;
+    gap: 1px;
+    margin-bottom: 1px;
+}
+
+.picbox2 {
+    display: flex;
+    gap: 1px;
+}
+
+
+.pic-box {
+    width: 100%;
+    height: 140px;
+    /* border: 2px solid green; */
+    /* border-radius: 10px; */
+}
+
+.react-box {
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+/* react box hover  */
+#comment:hover {
+    color: blue;
+}
+
+#retweet:hover {
+    color: green;
+}
+
+#like:hover {
+    color: red;
+}
+
+#view:hover {
+    color: palevioletred;
+
+}
+
+#share:hover {
+    color: blue;
+
+}
+
+/* 2nd post  */
+
+
+.pic-2 {
+    width: 100%;
+    height: 280px;
+    margin: 10px 0 0 0;
+
+}
+
+/* 3rd post  */
+
+.post3 {
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid; */
+}
+
+.post3:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.3);
+}
+
+.picture3 {
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 1px;
+    /* border-radius: 10px; */
+}
+
+.pic3 {
+    width: 100%;
+    height: 280px;
+}
+
+/* 4th post  */
+
+.post4 {
+    width: 100%;
+    height: 480px;
+    /* border: 2px solid; */
+}
+
+.post4:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.3);
+}
+
+.pic-usbm-2 {
+    width: 50%;
+}
+
+/* .picbox2:nth-child(2) {
+    width: 50%;
+} */
+
+/* 5th post  */
+
+.pic-3 {
+    width: 100%;
+    height: 280px;
+    margin: 10px 0 0 0;
+
+}
+
+/* 6th post  */
+
+
+.post6 {
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid; */
+}
+
+.post6:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.3);
+}
+
+/* right section  */
+
+.right-container {
+    /* border: 1px solid rgb(169, 167, 167); */
+    width: 40%;
+    padding-left: 20px;
+
+
+}
+
+.search-main {
+    background-color: white;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+
+}
+
+.search-box {
+    width: 80%;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgba(219, 228, 233, 0.4);
+    border-radius: 30px;
+
+}
+
+.search {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(240, 237, 237, 0.1);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: #4882e5;
+
+}
+
+.search-png {
+    width: 10%;
+    background-image: url('/img/search-pn.jpg');
+    background-size: cover;
+
+    /* border-radius: ; */
+}
+
+.right-nav-box {
+    width: 80%;
+    /* border: 2px solid green; */
+    border-radius: 15px;
+    /* height: 99vh; */
+    margin-top: 10px;
+    /* background-color: rgba(240, 237, 237, 0.8); */
+    background-color: rgba(219, 228, 233, 0.4);
+
+}
+
+/* common for all box in right  */
+
+.common-box {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8rem;
+    padding: 15px 20px;
+    line-height: 1.4rem;
+}
+
+.common-box:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.667);
+    transition-duration: 0.3s;
+}
+
+/* happening */
+
+.happen-box {
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* live box  */
+.live-box {
+    display: flex;
+    gap: 10px;
+
+}
+
+.cskvsmi {
+    width: 30%;
+
+}
+
+#cskvsmiid {
+    width: 100px;
+    border-radius: 10px;
+    /* width: 100%;
+    object-fit: contain;
+    border-radius: 10px; */
+}
+
+.trending-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-box {
+    color: #4882e5;
+    font-size: 0.9rem;
+    padding: 16px;
+    border-radius: 0 0 10px 10px;
+}
+
+.more-box:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.667);
+    transition-duration: 0.3s;
+}
+
+/* who want to follow box  */
+
+.right-nav-box-2 {
+    width: 80%;
+    /* border: 2px solid green; */
+    border-radius: 15px;
+    /* height: 57vh; */
+    margin-top: 10px;
+    background-color: rgba(219, 228, 233, 0.4);
+
+    position: sticky;
+    top: 60px;
+}
+
+/* following boxes */
+
+.follow-box {
+    display: flex;
+    padding: 16px 0;
+}
+
+.follow-box:hover {
+    cursor: pointer;
+    background-color: rgba(216, 213, 213, 0.667);
+    transition-duration: 0.3s;
+}
+
+.right-profile-box {
+    /* border: 2px solid rgb(119, 0, 255); */
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.right-profile1 {
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.right-id-box {
+    /* border: 2px solid red; */
+    width: 60%;
+
+}
+
+#right-id {
+    margin-top: 2px;
+    padding-left: 15px;
+    /* font-size: 1.4rem; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+#right-username {
+    padding-left: 15px;
+    color: rgb(133, 126, 126);
+}
+
+/* .following-box {
+    border: 2px solid yellow;
+    width: 20%;
+    margin-right: 20px;
+} */
+
+#follow-btn {
+    margin-right: 20px;
+    width: 20%;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0f1419;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+#follow-btn:hover {
+    cursor: pointer;
+    background-color: rgb(96, 84, 84);
+    transition-duration: 0.3s;
+}
+
+/* 2nd following  */
+/* .right-profile2 {
+    width: 60px;
+    border-radius: 50%;
+} */
+
+/* 3rd following  */
+/* .right-profile3 {
+    width: 60px;
+    border-radius: 50%;
+} */
+
+/* footer section  */
+
+.footer {
+    width: 80%;
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 480px;
+    margin-top: 20px;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: rgb(133, 126, 126);
+    line-height: 20px;
+    padding-left: 15px;
+
+}
+
+.footer-a:hover {
+    text-decoration: underline;
+}
+
+.footer-p {
+    line-height: 20px;
+}
+
+
+
+/* utility section  */
+
+h5 {
+    font-size: 1.3rem;
+    font-family: var(--page-common-font);
+    padding: 20px;
+}
+
+
+hr {
+    opacity: 0.2;
+}
+
+.grey-col {
+    color: rgb(171, 168, 168);
+}
+
+.grey-col2 {
+    color: rgb(133, 126, 126);
+}
+
+.right-font {
+    font-size: 1.3em;
+}
+
+.blue-col {
+    color: #4882e5;
+}
+
+.dots3 {
+    font-size: 1.3rem;
+    color: rgb(133, 126, 126);
+
+}

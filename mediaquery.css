@@ -1,0 +1,246 @@
+@media only screen and (min-width:1440px) and (max-width:2540px) {
+    .twitter-box {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+
+    /* left nav bar  */
+
+
+
+    /* right nav bar  */
+
+    .search-png {
+        width: 20%;
+    }
+
+    #cskvsmiid {
+        width: 80px;
+        margin-top: 10px;
+    }
+
+    #right-id {
+        font-size: 0.9rem;
+    }
+
+    /* #follow-btn {} */
+
+    .right-profile-box {
+        width: 40px;
+        height: 40px;
+    }
+
+    .right-profile1 {
+        width: 50px;
+
+    }
+
+    .footer {
+        position: sticky;
+        top: 440px;
+    }
+
+    .twitter-box {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .right-container {
+        display: none;
+    }
+
+    /* middle section  */
+    .middle-container {
+        width: 70%;
+
+    }
+
+    .write-caption {
+        width: 85%;
+        /* border: 3px solid; */
+    }
+
+    #captionwrite {
+        width: 80%;
+    }
+
+    /* #tweet {
+        width: 60px;
+        font-size: 0.9rem;
+        margin-left: 60%;
+    } */
+
+    /* left nav box  */
+    .left-container {
+        width: 15%;
+        /* overflow: scroll; */
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    /* twitter logo  */
+    .logo-box {
+        width: 25%;
+        margin-left: 55px;
+    }
+
+    .left-nav-box {
+        width: 40%;
+        margin-left: 40px;
+
+    }
+
+    .left-icon {
+        font-size: 1.8rem;
+
+    }
+
+    .link-a {
+        display: none;
+    }
+
+    .btn-main {
+        display: none;
+    }
+
+    .sd,
+    .user-id,
+    .dots {
+        display: none;
+    }
+
+
+    .profile-pic {
+        width: 60px;
+        margin-top: -70px;
+        margin-left: -120px;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* left nav box  */
+    .left-container {
+        width: 13%;
+        /* overflow: scroll; */
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    /* twitter logo  */
+    .logo-box {
+        width: 35%;
+        margin-left: 40px;
+    }
+
+    .left-nav-box {
+        width: 60%;
+        margin-left: 25px;
+
+    }
+
+    /* middle section  */
+    .middle-container {
+        width: 80%;
+
+    }
+
+    .write-caption {
+        width: 85%;
+        /* border: 3px solid; */
+    }
+
+    #captionwrite {
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (max-width:605px) {
+
+    .left-container {
+        /* border: 1px solid rgba(176, 175, 175, 0.9); */
+        width: 25%;
+        height: 620px;
+
+
+    }
+
+    /* twitter logo  */
+    .logo-box {
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    .left-nav-box {
+        width: 70%;
+        margin-left: 10px;
+
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+
+
+    .profile-pic {
+        width: 50px;
+        margin-top: -70px;
+        margin-left: -140px;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+
+    /* twitter logo  */
+    .logo-box {
+        width: 8%;
+        margin-left: 40px;
+        position: fixed;
+        left: 38%;
+        top: 5px;
+
+    }
+
+    .middle-container {
+        width: 100%;
+    }
+
+    h5 {
+        display: none;
+    }
+
+    .btn2 {
+        width: 50%;
+        /* font-size: 1rem; */
+    }
+
+    .react-box {
+        font-size: 0.8rem;
+        gap: 20px;
+    }
+
+    .pic-box {
+        width: 50%;
+        height: 100px;
+        /* border: 2px solid green; */
+        /* border-radius: 10px; */
+    }
+
+}
+
+/* @media screen and (max-width:350px) {} */
